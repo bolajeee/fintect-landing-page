@@ -1,0 +1,159 @@
+:root {
+  --primary-green: #8cc84b;
+  --text-dark: #333333;
+  --bg-light: #f5f9f2;
+}
+
+.header {
+  padding: 1rem 5%;
+  background-color: white;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.nav-links a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: var(--text-dark);
+}
+
+.download-btn {
+  background-color: var(--primary-green);
+  border: none;
+  border-radius: 25px;
+  padding: 0.75rem 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 0;
+  position: relative;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--bg-light);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  margin-bottom: 2rem;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  color: var(--text-dark);
+  max-width: 800px;
+  margin: 0 auto 1.5rem;
+}
+
+.subtitle {
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.watch-demo {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  padding: 0.75rem 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.trust-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.hero-image-container {
+  position: relative;
+  background-color: var(--bg-light);
+  border-radius: 50%;
+  width: 80%;
+  margin: 0 auto;
+  aspect-ratio: 1;
+  overflow: hidden;
+}
+
+.badge {
+  position: absolute;
+  background: white;
+  padding: 0.75rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.techstars {
+  top: 10%;
+  left: 10%;
+}
+
+.google {
+  bottom: 15%;
+  left: 5%;
+}
+
+.wallet-card {
+  position: absolute;
+  top: 15%;
+  right: 10%;
+  background: white;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.wallet-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.amount {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.wallet-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.wallet-actions button {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: white;
+  cursor: pointer;
+}

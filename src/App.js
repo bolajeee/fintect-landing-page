@@ -3,11 +3,12 @@ import Hero from "./components/Hero";
 import Features from "./components/Features";
 import Steps from "./components/Steps";
 import Offers from "./components/Offers";
-import VideoDemo from "./components/VideoDemo";
+
 import Testimonials from "./components/Testimonials";
 import FAQ from "./components/FAQ";
 import DownloadApp from "./components/DownloadApp";
 import Footer from "./components/Footer";
+import BlogPage from "./components/BlogPage";
 
 function App() {
   return (
@@ -16,9 +17,10 @@ function App() {
       <Features />
       <Steps />
       <Offers />
-      <VideoDemo />
+
       <Testimonials />
       <FAQ />
+      <BlogPage />
       <DownloadApp />
       <Footer />
     </div>

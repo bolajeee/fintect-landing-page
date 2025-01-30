@@ -6,7 +6,7 @@ const Steps = () => {
       {/* Steps Tag */}
       <div className="flex flex-col items-center text-center">
         <div className="inline-flex items-center space-x-2 bg-light-bg px-4 py-2 rounded-full mb-8">
-          <img src="/steps-icon.svg" alt="" className="h-4 w-4" />
+          <img src="/images/hero/secure-icon.png" alt="" className="h-4 w-4" />
           <span className="text-sm font-medium text-gray-800">
             HOW IT WORKS
           </span>
@@ -25,13 +25,13 @@ const Steps = () => {
             <h3 className="text-2xl font-semibold mb-4">
               Download the Mobile App
             </h3>
-            <p className="text-gray-600 mb-8">
+            <p className="text-gray-600 mb-10">
               Get started by downloading our mobile app, available on iOS and
               Android.
             </p>
             <div className="flex justify-center">
               <img
-                src="/qr-code.png"
+                src="/images/steps/qr-code.png"
                 alt="QR Code"
                 className="w-48 h-48 object-contain"
               />
@@ -42,13 +42,13 @@ const Steps = () => {
           <div className="bg-white rounded-3xl p-12 shadow-sm">
             <span className="text-xl text-gray-400 mb-4 block">2.</span>
             <h3 className="text-2xl font-semibold mb-4">Sign up on the app.</h3>
-            <p className="text-gray-600 mb-8">
+            <p className="text-gray-600 mb-10">
               Sign up with your details, verify your identity, and set up your
               payment preferences.
             </p>
-            <div className="flex justify-center bg-light-bg rounded-3xl p-4">
+            <div className="flex justify-center rounded-3xl p-4">
               <img
-                src="/signup-screen.png"
+                src="/images/steps/app-img.png"
                 alt="Sign Up Screen"
                 className="w-48 object-contain"
               />
@@ -61,14 +61,16 @@ const Steps = () => {
             <h3 className="text-2xl font-semibold mb-4">
               Setup Payment Details
             </h3>
-            <p className="text-gray-600 mb-8">
+            <p className="text-gray-600 mb-10">
               Securely link your local bank account or mobile wallet to the
               Pay4Me app.
             </p>
             <div className="flex justify-center items-center space-x-4">
-              <img src="/bank-icon.png" alt="Bank" className="w-16 h-16" />
-              <img src="/arrow.svg" alt="Arrow" className="w-8 h-8" />
-              <img src="/wallet-icon.png" alt="Wallet" className="w-16 h-16" />
+              <img
+                src="/images/steps/setup-payment.png"
+                alt="Arrow"
+                className="w-48 object-contain"
+              />
             </div>
           </div>
 
@@ -78,13 +80,13 @@ const Steps = () => {
             <h3 className="text-2xl font-semibold mb-4">
               Complete Your Payment
             </h3>
-            <p className="text-gray-600 mb-8">
+            <p className="text-gray-600 mb-10">
               Choose your preferred payment method and finalize the transaction
               securely.
             </p>
             <div className="flex justify-center">
               <img
-                src="/checkmark.svg"
+                src="/images/steps/payment.png"
                 alt="Complete"
                 className="w-24 h-24 text-primary"
               />

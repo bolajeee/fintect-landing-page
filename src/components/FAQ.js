@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 
+import sequre from "../images/hero/secure-icon.png";
+import faq from "../images/faq/faq-img.png";
+
 const FAQ = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
@@ -30,7 +33,7 @@ const FAQ = () => {
     <div className="container mx-auto px-6 py-24">
       {/* FAQ Tag */}
       <div className="inline-flex items-center space-x-2 bg-light-bg px-4 py-2 rounded-full mb-8">
-        <img src="/faq-icon.svg" alt="" className="h-4 w-4" />
+        <img src={sequre} alt="" className="h-4 w-4" />
         <span className="text-sm font-medium text-gray-800">FAQS</span>
       </div>
 
@@ -42,14 +45,14 @@ const FAQ = () => {
           </h2>
           <p className="text-gray-600 mb-8">We've got answers</p>
           <img
-            src="/faq-illustration.jpg"
+            src={faq}
             alt="FAQ Illustration"
             className="rounded-2xl w-full object-cover"
           />
         </div>
 
         {/* Right Column - FAQ Accordion */}
-        <div className="space-y-4">
+        <div className="space-y-4 pt-24">
           {faqs.map((faq, index) => (
             <div key={index} className="border-b border-gray-200 last:border-0">
               <button

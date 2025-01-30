@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         primary: "#8CC84B",
         "light-bg": "#F5F9F2",
+        "feature-bg": "#AFE274",
       },
       container: {
         center: true,

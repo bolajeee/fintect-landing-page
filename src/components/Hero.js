@@ -1,12 +1,30 @@
 import React from "react";
 
+import playstoreIcon from "../images/hero/playstore-icon.png";
+import appleIcon from "../images/hero/apple-icon.png";
+import logo from "../images/hero/logo.png";
+import heroImage from "../images/hero/hero-image.jpg";
+import playIcon from "../images/hero/play-icon.png";
+import avatar1 from "../images/hero/avatar1.png";
+import avatar2 from "../images/hero/avatar2.png";
+import avatar3 from "../images/hero/avatar3.png";
+import avatar4 from "../images/hero/avatar4.png";
+import techstarsIcon from "../images/hero/techstars.png";
+import googleIcon from "../images/hero/google.png";
+import across from "../images/hero/brands/across.png";
+import mpower from "../images/hero/brands/mpower.png";
+import prodigy from "../images/hero/brands/prodigy.png";
+import techstar from "../images/hero/brands/techstar.png";
+import stripe from "../images/hero/brands/stripe.png";
+import paystack from "../images/hero/brands/paystack.png";
+
 const Hero = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
       <nav className="container mx-auto px-6 py-4 mt-4 flex items-center justify-between bg-slate-700 rounded-full text-white ">
         <div className="flex items-center">
-          <img src="/logo.svg" alt="Pay4Me App" className="h-8" />
+          <img src={logo} alt="Pay4Me App" className="h-8" /> Pay4ME App
         </div>
 
         <div className="hidden md:flex items-center space-x-8">
@@ -39,8 +57,8 @@ const Hero = () => {
         <button className="btn-primary">
           <span>Download app</span>
           <div className="flex items-center space-x-1">
-            <img src="/playstore-icon.svg" alt="" className="h-5 w-5" />
-            <img src="/apple-icon.svg" alt="" className="h-5 w-5" />
+            <img src={playstoreIcon} alt="" className="h-5 w-5" />
+            <img src={appleIcon} alt="" className="h-5 w-5" />
           </div>
         </button>
       </nav>
@@ -50,7 +68,7 @@ const Hero = () => {
         <div className="text-center">
           {/* Tag */}
           <div className="inline-flex items-center space-x-2 bg-light-bg px-4 py-2 rounded-full mb-8">
-            <img src="/secure-icon.svg" alt="" className="h-4 w-4" />
+            <img src={heroImage} alt="" className="h-4 w-4" />
             <span className="text-sm font-medium text-gray-800">
               SECURE. GLOBAL. FAST
             </span>
@@ -72,13 +90,13 @@ const Hero = () => {
             <button className="btn-primary">
               <span>Download app</span>
               <div className="flex items-center space-x-1">
-                <img src="/playstore-icon.svg" alt="" className="h-5 w-5" />
-                <img src="/apple-icon.svg" alt="" className="h-5 w-5" />
+                <img src={playstoreIcon} alt="" className="h-5 w-5" />
+                <img src={appleIcon} alt="" className="h-5 w-5" />
               </div>
             </button>
             <button className="btn-secondary">
               <span>Watch Demo</span>
-              <img src="/play-icon.svg" alt="" className="h-5 w-5" />
+              <img src={playIcon} alt="" className="h-5 w-5" />
             </button>
           </div>
 
@@ -86,17 +104,22 @@ const Hero = () => {
           <div className="flex items-center justify-center space-x-3 mb-16">
             <div className="flex -space-x-2">
               <img
-                src="/avatar1.jpg"
+                src={avatar1}
                 className="h-8 w-8 rounded-full border-2 border-white"
                 alt=""
               />
               <img
-                src="/avatar2.jpg"
+                src={avatar2}
                 className="h-8 w-8 rounded-full border-2 border-white"
                 alt=""
               />
               <img
-                src="/avatar3.jpg"
+                src={avatar3}
+                className="h-8 w-8 rounded-full border-2 border-white"
+                alt=""
+              />
+              <img
+                src={avatar4}
                 className="h-8 w-8 rounded-full border-2 border-white"
                 alt=""
               />
@@ -106,23 +129,23 @@ const Hero = () => {
 
           {/* Hero Image Section */}
           <div className="relative w-full max-w-5xl mx-auto aspect-[4/3] md:aspect-[16/9]">
-            <div className="absolute inset-0 bg-light-bg rounded-full overflow-hidden">
+            <div className="absolute inset-0 rounded-full overflow-hidden">
               {/* Badges and Hero Image */}
-              <div className="absolute top-[10%] left-[10%] flex items-center space-x-2 bg-white p-3 rounded-xl shadow-lg">
-                <img src="/techstars.svg" alt="" className="h-6 w-6" />
-                <p className="text-sm font-medium">Backed by Techstars</p>
-              </div>
 
               <div className="absolute inset-0 flex items-center justify-center">
                 <img
-                  src="/hero-image.jpg"
+                  src={heroImage}
                   alt=""
                   className="w-3/4 h-auto object-cover"
                 />
               </div>
+              <div className="absolute top-[10%] left-[10%] flex items-center space-x-2 bg-white p-3 rounded-xl shadow-lg">
+                <img src={techstarsIcon} alt="" className="h-6 w-6" />
+                <p className="text-sm font-medium">Backed by Techstars</p>
+              </div>
 
-              <div className="absolute bottom-[15%] left-[5%] flex items-center space-x-2 bg-white p-3 rounded-xl shadow-lg">
-                <img src="/google.svg" alt="" className="h-6 w-6" />
+              <div className=" absolute bottom-[15%] left-[5%] flex items-center space-x-2 bg-white p-3 rounded-xl shadow-lg">
+                <img src={googleIcon} alt="" className="h-6 w-6" />
                 <div className="text-yellow-400 text-sm">★★★★★</div>
                 <p className="text-sm font-medium">5 star Google rating</p>
               </div>
@@ -154,32 +177,28 @@ const Hero = () => {
             </h3>
             <div className="flex justify-between items-center max-w-6xl mx-auto px-6">
               <img
-                src="/brands/across.svg"
+                src={across}
                 alt="Across The Horizon"
                 className="h-8 object-contain"
               />
               <img
-                src="/brands/mpower.svg"
+                src={mpower}
                 alt="MPower Financing"
                 className="h-8 object-contain"
               />
               <img
-                src="/brands/prodigy.svg"
+                src={prodigy}
                 alt="Prodigy Finance"
                 className="h-8 object-contain"
               />
               <img
-                src="/brands/techstars.svg"
+                src={techstar}
                 alt="Techstars"
                 className="h-8 object-contain"
               />
+              <img src={stripe} alt="Stripe" className="h-8 object-contain" />
               <img
-                src="/brands/stripe.svg"
-                alt="Stripe"
-                className="h-8 object-contain"
-              />
-              <img
-                src="/brands/paystack.svg"
+                src={paystack}
                 alt="Paystack"
                 className="h-8 object-contain"
               />

@@ -1,16 +1,16 @@
 import React from "react";
 
-import secure from "../images/hero/secure-icon.png";
-import blog1 from "../images/blogs/blog1.png";
-import blog2 from "../../images/blogs/blog2.png";
-import blog3 from "../images/blogs/blog3.png";
+// import secure from "../../../public/images/hero/secure-icon.png";
+// import blog1 from "../../../public/images/blogs/blog1.png";
+// import blog2 from "../../../public/images/blogs/blog2.png";
+// import blog3 from "../../../public/images/blogs/blog3.png";
 
 const BlogPage = () => {
   const blogPosts = [
     {
       id: 1,
       title: "How to Navigate International Payments for Education With Ease",
-      image: blog1,
+      image: "/images/blog/blog1.png",
       excerpt:
         "Learn the best practices for managing international education payments efficiently...",
       date: "March 15, 2024",
@@ -19,7 +19,7 @@ const BlogPage = () => {
     {
       id: 2,
       title: "Importance of getting Insurance before traveling",
-      image: blog2,
+      image: "/images/blog/blog2.png",
       excerpt:
         "Discover why travel insurance is crucial for international students...",
       date: "March 10, 2024",
@@ -28,7 +28,7 @@ const BlogPage = () => {
     {
       id: 3,
       title: "Overcoming Challenges in Foreign Currency Tuition Payments",
-      image: blog3,
+      image: "/images/blog/blog3.png",
       excerpt:
         "Tips and strategies for handling foreign currency transactions...",
       date: "March 5, 2024",

@@ -1,16 +1,5 @@
 import React from "react";
 
-import logo from "../images/hero/logo.png";
-import email from "../images/footer/email-icon.png";
-import ig from "../images/footer/ig-icon.png";
-import x from "../images/footer/x-icon.png";
-import facebook from "../images/footer/facebook-icon.png";
-import tictok from "../images/footer/tictok-icon.png";
-import youtube from "../images/footer/youtube-icon.png";
-import wApple from "../images/downloadApp/w-apple-icon.png";
-import wPlaystore from "../images/downloadApp/w-playstore-icon.png";
-import bgImg from "../images/features/features-bg.png";
-
 const Footer = () => {
   return (
     <footer className="bg-white">
@@ -19,26 +8,50 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-7 gap-8 mb-12">
           {/* Company Info - 2 columns wide */}
           <div className="md:col-span-2 space-y-6">
-            <img src={logo} alt="Pay4Me App" className="h-8" />
+            <img src="/images/hero/logo.png" alt="Pay4Me App" className="h-8" />
             <div className="flex items-center space-x-2 text-gray-600">
-              <img src={email} alt="" className="h-4 w-4" />
+              <img
+                src="/images/footer/email-icon.png"
+                alt=""
+                className="h-4 w-4"
+              />
               <span>support@pay4me.app</span>
             </div>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-600 hover:text-primary">
-                <img src={ig} alt="Instagram" className="h-6 w-6" />
+                <img
+                  src="/images/footer/ig-icon.png"
+                  alt="Instagram"
+                  className="h-6 w-6"
+                />
               </a>
               <a href="#" className="text-gray-600 hover:text-primary">
-                <img src={x} alt="Twitter" className="h-6 w-6" />
+                <img
+                  src="/images/footer/x-icon.png"
+                  alt="Twitter"
+                  className="h-6 w-6"
+                />
               </a>
               <a href="#" className="text-gray-600 hover:text-primary">
-                <img src={facebook} alt="Facebook" className="h-6 w-6" />
+                <img
+                  src="/images/footer/facebook-icon.png"
+                  alt="Facebook"
+                  className="h-6 w-6"
+                />
               </a>
               <a href="#" className="text-gray-600 hover:text-primary">
-                <img src={tictok} alt="TikTok" className="h-6 w-6" />
+                <img
+                  src="/images/footer/tictok-icon.png"
+                  alt="TikTok"
+                  className="h-6 w-6"
+                />
               </a>
               <a href="#" className="text-gray-600 hover:text-primary">
-                <img src={youtube} alt="YouTube" className="h-6 w-6" />
+                <img
+                  src="/images/footer/youtube-icon.png"
+                  alt="YouTube"
+                  className="h-6 w-6"
+                />
               </a>
             </div>
           </div>
@@ -122,14 +135,22 @@ const Footer = () => {
             <h3 className="font-semibold mb-4">Download App</h3>
             <div className="flex space-x-4">
               <button className="flex items-center space-x-2 bg-black text-white px-4 py-2 rounded-lg hover:bg-black/90 transition-colors">
-                <img src={wApple} alt="" className="h-5 w-5" />
+                <img
+                  src="/images/downloadApp/w-apple-icon.png"
+                  alt=""
+                  className="h-5 w-5"
+                />
                 <div className="text-left">
                   <div className="text-[10px]">Download on</div>
                   <div className="text-xs font-medium">App Store</div>
                 </div>
               </button>
               <button className="flex items-center space-x-2 bg-black text-white px-4 py-2 rounded-lg hover:bg-black/90 transition-colors">
-                <img src={wPlaystore} alt="" className="h-5 w-5" />
+                <img
+                  src="/images/downloadApp/w-playstore-icon.png"
+                  alt=""
+                  className="h-5 w-5"
+                />
                 <div className="text-left">
                   <div className="text-[10px]">Download on</div>
                   <div className="text-xs font-medium">Play Store</div>
@@ -151,7 +172,11 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-row">
-          <img src={bgImg} alt="Pay4Me App" className="h-16" />
+          <img
+            src="/images/features/features-bg.png"
+            alt="Pay4Me App"
+            className="h-16"
+          />
           <p className="text-xs text-gray-500 mt-8 ">
             Pay4Me is a financial technology company making it easier for
             international students and immigrants to pay their tuition and fees

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
-import sequre from "../images/hero/secure-icon.png";
-import faq from "../images/faq/faq-img.png";
+// import sequre from "../../../public/images/hero/secure-icon.png";
+// import faq from "../../../public/images/faq/faq-img.png";
 
 const FAQ = () => {
   const [openIndex, setOpenIndex] = useState(null);

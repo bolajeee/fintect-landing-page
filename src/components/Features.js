@@ -1,10 +1,10 @@
 import React from "react";
 
-import secureIcon from "../images/hero/secure-icon.png";
-import globalIcon from "../images/features/global.png";
-import fastIcon from "../images/features/fast.png";
-import secureIcon2 from "../images/features/secure.png";
-import featuresBg from "../images/features/features-bg.png";
+// import secureIcon from "../../../public/images/hero/secure-icon.png";
+// import globalIcon from "../../../public/images/features/global.png";
+// import fastIcon from "../../../public/images/features/fast.png";
+// import secureIcon2 from "../../../public/images/features/secure.png";
+// import featuresBg from "../../../public/images/features/features-bg.png";
 
 const Features = () => {
   const testimonials = [

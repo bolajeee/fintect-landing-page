@@ -1,6 +1,5 @@
-import React from "react";
 
-import bgImg from "../images/features/features-bg.png";
+// import bgImg from '../../../public/images/features/features-bg.png';
 
 const DownloadApp = () => {
   return (

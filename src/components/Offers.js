@@ -1,33 +1,41 @@
 import React from "react";
 
-import offerLighning from "../images/offers/offer-lightning.png";
-import offerDollar from "../images/offers/offer-dollar.png";
-import sevis from "../images/offers/sevis.png";
-import wes from "../images/offers/wes.png";
-import visa from "../images/offers/visa.png";
-import stanford from "../images/offers/stanford.png";
-import ghana from "../images/offers/ghana.png";
-import byu from "../images/offers/byu.png";
-import unilag from "../images/offers/unilag.png";
-import playstore from "../images/hero/playstore-icon.png";
-import apple from "../images/hero/apple-icon.png";
-import secureIcon from "../images/hero/secure-icon.png";
-import tuitionBg from "../images/offers/offer-tuition-bg.png";
-import dollarBg from "../images/offers/offer-dollar-bg.png";
-import leftBg from "../images/offers/offer-l-bg.png";
-import rightBg from "../images/offers/offer-r-bg.png";
+// import offerLighning from "../../../public/images/offers/offer-lightning.png";
+// import offerDollar from "../../../public/images/offers/offer-dollar.png";
+// import sevis from "../../../public/images/offers/sevis.png";
+// import wes from "../../../public/images/offers/wes.png";
+// import visa from "../../../public/images/offers/visa.png";
+// import stanford from "../../../public/images/offers/stanford.png";
+// import ghana from "../../../public/images/offers/ghana.png";
+// import byu from "../../../public/images/offers/byu.png";
+// import unilag from "../../../public/images/offers/unilag.png";
+// import playstore from "../../../public/images/hero/playstore-icon.png";
+// import apple from "../../../public/images/hero/apple-icon.png";
+// import secureIcon from "../../../public/images/hero/secure-icon.png";
+// import tuitionBg from "../../../public/images/offers/offer-tuition-bg.png";
+// import dollarBg from "../../../public/images/offers/offer-dollar-bg.png";
+// import leftBg from "../../../public/images/offers/offer-l-bg.png";
+// import rightBg from "../../../public/images/offers/offer-r-bg.png";
 
 const Offers = () => {
   return (
     <div className="w-full bg-black text-white py-24">
       {/* Left Background Image */}
-      <div className="absolute left-0  z-10">
-        <img src={leftBg} alt="" className="w-[250px] object-cover" />
+      <div className="absolute left-0 top-[30%] -z-10 opacity-80">
+        <img
+          src="/images/features/features-bg.png"
+          alt=""
+          className="w-[250px] object-cover"
+        />
       </div>
 
       {/* Right Background Image */}
-      <div className="absolute right-0   z-10">
-        <img src={rightBg} alt="" className="w-[250px] object-cover" />
+      <div className="absolute right-0 top-[30%] -z-10 opacity-80">
+        <img
+          src="/images/features/features-bg.png"
+          alt=""
+          className="w-[250px] object-cover"
+        />
       </div>
       <div className="container mx-auto px-6 relative">
         {/* Offers Tag */}

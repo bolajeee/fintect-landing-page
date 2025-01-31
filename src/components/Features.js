@@ -1,10 +1,10 @@
 import React from "react";
 
-// import secureIcon from "../../../public/images/hero/secure-icon.png";
-// import globalIcon from "../../../public/images/features/global.png";
-// import fastIcon from "../../../public/images/features/fast.png";
-// import secureIcon2 from "../../../public/images/features/secure.png";
-// import featuresBg from "../../../public/images/features/features-bg.png";
+import secureIcon from "../images/hero/secure-icon.png";
+import globalIcon from "../images/features/global.png";
+import fastIcon from "../images/features/fast.png";
+import secureIcon2 from "../images/features/secure.png";
+import featuresBg from "../images/features/features-bg.png";
 
 const Features = () => {
   const testimonials = [
@@ -34,7 +34,7 @@ const Features = () => {
       {/* Background Image - Positioned Absolutely */}
       <div className="absolute top-0 right-0 h-full">
         <img
-          src="/images/features/features-bg.png"
+          src={featuresBg}
           alt="features-bg"
           className="h-[540px] w-auto object-contain"
         />
@@ -46,7 +46,7 @@ const Features = () => {
           {/* Features Tag */}
           <div className="inline-flex items-center space-x-2 bg-white/80 px-4 py-2 rounded-full mb-8">
             <img
-              src="/images/hero/secure-icon.png"
+              src={secureIcon}
               alt=""
               className="h-4 w-4"
             />
@@ -64,7 +64,7 @@ const Features = () => {
             <div className="bg-white rounded-2xl p-8">
               <div className="mb-6">
                 <img
-                  src="/images/features/global.png"
+                  src={globalIcon}
                   alt=""
                   className="h-12 w-12"
                 />
@@ -98,7 +98,7 @@ const Features = () => {
             <div className="bg-white rounded-2xl p-8">
               <div className="mb-6">
                 <img
-                  src="/images/features/fast.png"
+                  src={fastIcon}
                   alt=""
                   className="h-12 w-12"
                 />
@@ -132,7 +132,7 @@ const Features = () => {
             <div className="bg-white rounded-2xl p-8">
               <div className="mb-6">
                 <img
-                  src="/images/features/secure.png"
+                  src={secureIcon2}
                   alt=""
                   className="h-12 w-12"
                 />

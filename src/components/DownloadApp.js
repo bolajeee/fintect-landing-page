@@ -1,11 +1,13 @@
-
-// import bgImg from '../../../public/images/features/features-bg.png';
+import bgImg from '../images/features/features-bg.png';
+import wQrCode from '../images/downloadApp/w-qr-code.png';
+import wAppleIcon from '../images/downloadApp/w-apple-icon.png';
+import wPlaystoreIcon from '../images/downloadApp/w-playstore-icon.png';
 
 const DownloadApp = () => {
   return (
     <div className="bg-light-bg rounded-3xl mx-6 my-24 relative overflow-hidden">
       {/* Background Image */}
-      <div className="absolute inset-0 opacity-30">
+      <div className="absolute opacity-30 w-[350px] right-0">
         <img src={bgImg} alt="" className="w-full h-full object-cover" />
       </div>
 
@@ -26,7 +28,7 @@ const DownloadApp = () => {
           <div className="flex space-x-4">
             <button className="flex items-center space-x-2 bg-black text-white px-6 py-3 rounded-full hover:bg-black/90 transition-colors">
               <img
-                src="/images/downloadApp/w-apple-icon.png"
+                src={wAppleIcon}
                 alt=""
                 className="h-5 w-5"
               />
@@ -37,7 +39,7 @@ const DownloadApp = () => {
             </button>
             <button className="flex items-center space-x-2 bg-black text-white px-6 py-3 rounded-full hover:bg-black/90 transition-colors">
               <img
-                src="/images/downloadApp/w-playstore-icon.png"
+                src={wPlaystoreIcon}
                 alt=""
                 className="h-5 w-5"
               />
@@ -53,7 +55,7 @@ const DownloadApp = () => {
         <div className="mt-8 md:mt-0">
           <div className="bg-white p-4 rounded-2xl shadow-lg">
             <img
-              src="/images/downloadApp/w-qr-code.png"
+              src={wQrCode}
               alt="QR Code"
               className="w-48 h-48"
             />

@@ -1,4 +1,14 @@
 import React from "react";
+import logo from "../images/hero/logo.png";
+import emailIcon from "../images/footer/email-icon.png";
+import igIcon from "../images/footer/ig-icon.png";
+import xIcon from "../images/footer/x-icon.png";
+import facebookIcon from "../images/footer/facebook-icon.png";
+import tictokIcon from "../images/footer/tictok-icon.png";
+import youtubeIcon from "../images/footer/youtube-icon.png";
+import wAppleIcon from "../images/downloadApp/w-apple-icon.png";
+import wPlaystoreIcon from "../images/downloadApp/w-playstore-icon.png";
+import featuresBg from "../images/features/features-bg.png";
 
 const Footer = () => {
   return (
@@ -8,10 +18,10 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-7 gap-8 mb-12">
           {/* Company Info - 2 columns wide */}
           <div className="md:col-span-2 space-y-6">
-            <img src="/images/hero/logo.png" alt="Pay4Me App" className="h-8" />
+            <img src={logo} alt="Pay4Me App" className="h-8" />
             <div className="flex items-center space-x-2 text-gray-600">
               <img
-                src="/images/footer/email-icon.png"
+                src={emailIcon}
                 alt=""
                 className="h-4 w-4"
               />
@@ -20,35 +30,35 @@ const Footer = () => {
             <div className="flex space-x-4">
               <a href="#" className="text-gray-600 hover:text-primary">
                 <img
-                  src="/images/footer/ig-icon.png"
+                  src={igIcon}
                   alt="Instagram"
                   className="h-6 w-6"
                 />
               </a>
               <a href="#" className="text-gray-600 hover:text-primary">
                 <img
-                  src="/images/footer/x-icon.png"
+                  src={xIcon}
                   alt="Twitter"
                   className="h-6 w-6"
                 />
               </a>
               <a href="#" className="text-gray-600 hover:text-primary">
                 <img
-                  src="/images/footer/facebook-icon.png"
+                  src={facebookIcon}
                   alt="Facebook"
                   className="h-6 w-6"
                 />
               </a>
               <a href="#" className="text-gray-600 hover:text-primary">
                 <img
-                  src="/images/footer/tictok-icon.png"
+                  src={tictokIcon}
                   alt="TikTok"
                   className="h-6 w-6"
                 />
               </a>
               <a href="#" className="text-gray-600 hover:text-primary">
                 <img
-                  src="/images/footer/youtube-icon.png"
+                  src={youtubeIcon}
                   alt="YouTube"
                   className="h-6 w-6"
                 />
@@ -136,7 +146,7 @@ const Footer = () => {
             <div className="flex space-x-4">
               <button className="flex items-center space-x-2 bg-black text-white px-4 py-2 rounded-lg hover:bg-black/90 transition-colors">
                 <img
-                  src="/images/downloadApp/w-apple-icon.png"
+                  src={wAppleIcon}
                   alt=""
                   className="h-5 w-5"
                 />
@@ -147,7 +157,7 @@ const Footer = () => {
               </button>
               <button className="flex items-center space-x-2 bg-black text-white px-4 py-2 rounded-lg hover:bg-black/90 transition-colors">
                 <img
-                  src="/images/downloadApp/w-playstore-icon.png"
+                  src={wPlaystoreIcon}
                   alt=""
                   className="h-5 w-5"
                 />
@@ -167,13 +177,13 @@ const Footer = () => {
         {/* Copyright and Legal Text */}
         <div className="flex flex-col items-center border-t border-b border-gray-200 pt-8 pb-8">
           <p className="text-sm text-gray-600 mb-4 md:mb-0 text-center">
-            © 2020 - 2024 Pay4Me, Inc.
+            2020 - 2024 Pay4Me, Inc.
           </p>
         </div>
 
         <div className="flex flex-row">
           <img
-            src="/images/features/features-bg.png"
+            src={featuresBg}
             alt="Pay4Me App"
             className="h-16"
           />

@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 
 // Import images
-// import jimmy from "../images/testimonials/jimmy.png";
-// import palmer from "../images/testimonials/palmer.png";
-// import hannah from "../images/testimonials/hannah.png";
-// import secure from "../images/hero/secure-icon.png";
+import jimmy from "../images/testimonials/jimmy.png";
+import palmer from "../images/testimonials/palmer.png";
+import hannah from "../images/testimonials/hannah.png";
+import secure from "../images/hero/secure-icon.png";
 import VideoDemo from "./VideoDemo";
 
 const Testimonials = () => {
@@ -12,20 +12,20 @@ const Testimonials = () => {
     {
       name: "Jimmy Adewale",
       role: "Entrepreneur",
-      image: "/images/testimonials/jimmy.png",
+      image: jimmy,
       content:
         "The payment process was smooth and efficient. Highly recommended!",
     },
     {
       name: "Palmer Nicole",
       role: "PhD Student",
-      image: "/images/testimonials/palmer.png",
+      image: palmer,
       content: "Made my international tuition payments hassle-free.",
     },
     {
       name: "Hannah Adams",
       role: "Senior Therapist",
-      image: "/images/testimonials/hannah.png",
+      image: hannah,
       content: "Great service for handling educational payments globally.",
     },
   ];
@@ -62,7 +62,7 @@ const Testimonials = () => {
           {/* Testimonials Tag */}
           <div className="inline-flex items-center space-x-2 bg-light-bg px-4 py-2 rounded-full mb-8">
             <img
-              src="/images/hero/secure-icon.png"
+              src={secure}
               alt=""
               className="h-4 w-4"
             />

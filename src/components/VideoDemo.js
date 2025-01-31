@@ -1,4 +1,6 @@
 import React from "react";
+import videoDemo from "../images/hero/hero-image.jpg";
+import playIcon from "../images/hero/play-icon.png";
 
 const VideoDemo = () => {
   return (
@@ -13,13 +15,13 @@ const VideoDemo = () => {
           {/* Video Thumbnail with Play Button */}
           <div className="absolute inset-0 flex items-center justify-center">
             <img
-              src="/images/video/video-demo.png"
+              src={videoDemo}
               alt="App Preview"
               className="w-full h-full object-cover"
             />
             <button className="absolute flex items-center justify-center w-16 h-16 bg-white rounded-full shadow-lg hover:scale-110 transition-transform duration-300">
               <img
-                src="/images/video/youtube-play.png"
+                src={playIcon}
                 alt="Play"
                 className="w-6 h-6"
               />

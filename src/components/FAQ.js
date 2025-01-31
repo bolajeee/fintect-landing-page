@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
-// import sequre from "../../../public/images/hero/secure-icon.png";
-// import faq from "../../../public/images/faq/faq-img.png";
+import secure from "../images/hero/secure-icon.png";
+import faq from "../images/faq/faq-img.png";
 
 const FAQ = () => {
   const [openIndex, setOpenIndex] = useState(null);
@@ -33,7 +33,7 @@ const FAQ = () => {
     <div className="container mx-auto px-6 py-24">
       {/* FAQ Tag */}
       <div className="inline-flex items-center space-x-2 bg-light-bg px-4 py-2 rounded-full mb-8">
-        <img src={sequre} alt="" className="h-4 w-4" />
+        <img src={secure} alt="" className="h-4 w-4" />
         <span className="text-sm font-medium text-gray-800">FAQS</span>
       </div>
 

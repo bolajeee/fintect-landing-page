@@ -1,22 +1,22 @@
 import React from "react";
 
-// import playstoreIcon from "../../../public/images/hero/playstore-icon.png";
-// import appleIcon from "../../../public/images/hero/apple-icon.png";
-// import logo from "../../../public/images/hero/logo.png";
-// import heroImage from "../../../public/images/hero/hero-image.jpg";
-// import playIcon from "../../../public/images/hero/play-icon.png";
-// import avatar1 from "../../../public/images/hero/avatar1.png";
-// import avatar2 from "../../../public/images/hero/avatar2.png";
-// import avatar3 from "../../../public/images/hero/avatar3.png";
-// import avatar4 from "../../../public/images/hero/avatar4.png";
-// import techstarsIcon from "../../../public/images/hero/techstars.png";
-// import googleIcon from "../../../public/images/hero/google.png";
-// import across from "../../../public/images/hero/brands/across.png";
-// import mpower from "../../../public/images/hero/brands/mpower.png";
-// import prodigy from "../../../public/images/hero/brands/prodigy.png";
-// import techstar from "../../../public/images/hero/brands/techstar.png";
-// import stripe from "../../../public/images/hero/brands/stripe.png";
-// import paystack from "../../../public/images/hero/brands/paystack.png";
+import playstoreIcon from "../images/hero/playstore-icon.png";
+import appleIcon from "../images/hero/apple-icon.png";
+import logo from "../images/hero/logo.png";
+import heroImage from "../images/hero/hero-image.jpg";
+import playIcon from "../images/hero/play-icon.png";
+import avatar1 from "../images/hero/avatar1.png";
+import avatar2 from "../images/hero/avatar2.png";
+import avatar3 from "../images/hero/avatar3.png";
+import avatar4 from "../images/hero/avatar4.png";
+import techstarsIcon from "../images/hero/techstars.png";
+import googleIcon from "../images/hero/google.png";
+import across from "../images/hero/brands/across.png";
+import mpower from "../images/hero/brands/mpower.png";
+import prodigy from "../images/hero/brands/prodigy.png";
+import techstar from "../images/hero/brands/techstar.png";
+import stripe from "../images/hero/brands/stripe.png";
+import paystack from "../images/hero/brands/paystack.png";
 
 const Hero = () => {
   return (

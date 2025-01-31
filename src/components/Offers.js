@@ -1,21 +1,21 @@
 import React from "react";
 
-// import offerLighning from "../../../public/images/offers/offer-lightning.png";
-// import offerDollar from "../../../public/images/offers/offer-dollar.png";
-// import sevis from "../../../public/images/offers/sevis.png";
-// import wes from "../../../public/images/offers/wes.png";
-// import visa from "../../../public/images/offers/visa.png";
-// import stanford from "../../../public/images/offers/stanford.png";
-// import ghana from "../../../public/images/offers/ghana.png";
-// import byu from "../../../public/images/offers/byu.png";
-// import unilag from "../../../public/images/offers/unilag.png";
-// import playstore from "../../../public/images/hero/playstore-icon.png";
-// import apple from "../../../public/images/hero/apple-icon.png";
-// import secureIcon from "../../../public/images/hero/secure-icon.png";
-// import tuitionBg from "../../../public/images/offers/offer-tuition-bg.png";
-// import dollarBg from "../../../public/images/offers/offer-dollar-bg.png";
-// import leftBg from "../../../public/images/offers/offer-l-bg.png";
-// import rightBg from "../../../public/images/offers/offer-r-bg.png";
+import offerLighning from "../images/offers/offer-lightning.png";
+import offerDollar from "../images/offers/offer-dollar.png";
+import sevis from "../images/offers/sevis.png";
+import wes from "../images/offers/wes.png";
+import visa from "../images/offers/visa.png";
+import stanford from "../images/offers/stanford.png";
+import ghana from "../images/offers/ghana.png";
+import byu from "../images/offers/byu.png";
+import unilag from "../images/offers/unilag.png";
+import playstore from "../images/hero/playstore-icon.png";
+import apple from "../images/hero/apple-icon.png";
+import secureIcon from "../images/hero/secure-icon.png";
+import tuitionBg from "../images/offers/offer-tuition-bg.png";
+import dollarBg from "../images/offers/offer-dollar-bg.png";
+import leftBg from "../images/offers/offer-l-bg.png";
+import rightBg from "../images/offers/offer-r-bg.png";
 
 const Offers = () => {
   return (
@@ -23,7 +23,7 @@ const Offers = () => {
       {/* Left Background Image */}
       <div className="absolute left-0 top-[30%] -z-10 opacity-80">
         <img
-          src="/images/features/features-bg.png"
+          src={leftBg}
           alt=""
           className="w-[250px] object-cover"
         />
@@ -32,7 +32,7 @@ const Offers = () => {
       {/* Right Background Image */}
       <div className="absolute right-0 top-[30%] -z-10 opacity-80">
         <img
-          src="/images/features/features-bg.png"
+          src={rightBg}
           alt=""
           className="w-[250px] object-cover"
         />
@@ -69,7 +69,7 @@ const Offers = () => {
               <div className="relative z-10">
                 <div className="mb-6">
                   <img
-                    src="/images/offers/offer-lightning.png"
+                    src={offerLighning}
                     alt=""
                     className="h-12 w-12 text-yellow-500"
                   />
@@ -108,7 +108,7 @@ const Offers = () => {
               <div className="relative z-10">
                 <div className="mb-6">
                   <img
-                    src="/images/offers/offer-dollar.png"
+                    src={offerDollar}
                     alt=""
                     className="h-12 w-12 text-blue-500"
                   />
@@ -125,7 +125,7 @@ const Offers = () => {
                 </p>
                 <div className="grid grid-cols-3 gap-4">
                   <img
-                    src="/images/offers/sevis.png"
+                    src={sevis}
                     alt="SEVIS"
                     className="h-12"
                   />

@@ -1,12 +1,18 @@
 import React from "react";
 
+import secureIcon from "../images/hero/secure-icon.png";
+import qrCode from "../images/steps/qr-code.png";
+import appImg from "../images/steps/app-img.png";
+import setupPayment from "../images/steps/setup-payment.png";
+import payment from "../images/steps/payment.png"
+
 const Steps = () => {
   return (
     <div className="container mx-auto px-6 py-24">
       {/* Steps Tag */}
       <div className="flex flex-col items-center text-center">
         <div className="inline-flex items-center space-x-2 bg-light-bg px-4 py-2 rounded-full mb-8">
-          <img src="/images/hero/secure-icon.png" alt="" className="h-4 w-4" />
+          <img src={secureIcon} alt="" className="h-4 w-4" />
           <span className="text-sm font-medium text-gray-800">
             HOW IT WORKS
           </span>
@@ -31,7 +37,7 @@ const Steps = () => {
             </p>
             <div className="flex justify-center">
               <img
-                src="/images/steps/qr-code.png"
+                src={qrCode}
                 alt="QR Code"
                 className="w-48 h-48 object-contain"
               />
@@ -48,7 +54,7 @@ const Steps = () => {
             </p>
             <div className="flex justify-center rounded-3xl p-4">
               <img
-                src="/images/steps/app-img.png"
+                src={appImg}
                 alt="Sign Up Screen"
                 className="w-48 object-contain"
               />
@@ -67,8 +73,8 @@ const Steps = () => {
             </p>
             <div className="flex justify-center items-center space-x-4">
               <img
-                src="/images/steps/setup-payment.png"
-                alt="Arrow"
+                src={setupPayment}
+                alt="Setup Payment"
                 className="w-48 object-contain"
               />
             </div>
@@ -86,21 +92,12 @@ const Steps = () => {
             </p>
             <div className="flex justify-center">
               <img
-                src="/images/steps/payment.png"
+                src={payment}
                 alt="Complete"
-                className="w-24 h-24 text-primary"
+                className="w-48 h-48 object-contain"
               />
             </div>
           </div>
-        </div>
-
-        {/* CTA Button */}
-        <div className="mt-16">
-          <button className="inline-flex items-center space-x-2 bg-primary text-white px-6 py-3 rounded-full hover:bg-primary/90 transition-colors">
-            <span>Download app</span>
-            <img src="/playstore-icon.svg" alt="" className="h-5 w-5" />
-            <img src="/apple-icon.svg" alt="" className="h-5 w-5" />
-          </button>
         </div>
       </div>
     </div>

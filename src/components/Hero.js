@@ -29,28 +29,34 @@ const Hero = () => {
 
         <div className="hidden md:flex items-center space-x-8">
           <a
-            href="#"
+            href="/"
             className="text-white hover:text-primary transition-colors opacity-80 hover:opacity-100"
           >
             Home
           </a>
           <a
-            href="#"
+            href="/about"
             className="text-white hover:text-primary transition-colors"
           >
             About
           </a>
           <a
-            href="#"
+            href="/blog"
             className="text-white hover:text-primary transition-colors"
           >
             Blog
           </a>
           <a
-            href="#"
+            href="/contact"
             className="text-white hover:text-primary transition-colors"
           >
-            Support
+            Contact
+          </a>
+          <a
+            href="/download"
+            className="bg-white text-gray-900 px-6 py-2 rounded-full hover:bg-gray-100 transition-colors"
+          >
+            Download App
           </a>
         </div>
 

@@ -28,35 +28,35 @@ const Footer = () => {
               <span>support@pay4me.app</span>
             </div>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-600 hover:text-primary">
+              <a href="https://instagram.com/pay4me" className="text-gray-600 hover:text-primary">
                 <img
                   src={igIcon}
                   alt="Instagram"
                   className="h-6 w-6"
                 />
               </a>
-              <a href="#" className="text-gray-600 hover:text-primary">
+              <a href="https://twitter.com/pay4me" className="text-gray-600 hover:text-primary">
                 <img
                   src={xIcon}
                   alt="Twitter"
                   className="h-6 w-6"
                 />
               </a>
-              <a href="#" className="text-gray-600 hover:text-primary">
+              <a href="https://facebook.com/pay4me" className="text-gray-600 hover:text-primary">
                 <img
                   src={facebookIcon}
                   alt="Facebook"
                   className="h-6 w-6"
                 />
               </a>
-              <a href="#" className="text-gray-600 hover:text-primary">
+              <a href="https://tiktok.com/@pay4me" className="text-gray-600 hover:text-primary">
                 <img
                   src={tictokIcon}
                   alt="TikTok"
                   className="h-6 w-6"
                 />
               </a>
-              <a href="#" className="text-gray-600 hover:text-primary">
+              <a href="https://youtube.com/pay4me" className="text-gray-600 hover:text-primary">
                 <img
                   src={youtubeIcon}
                   alt="YouTube"
@@ -71,23 +71,23 @@ const Footer = () => {
             <h3 className="font-semibold mb-4">Company</h3>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="text-gray-600 hover:text-primary">
-                  About
+                <a href="/about" className="text-gray-600 hover:text-primary">
+                  About Us
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-primary">
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-600 hover:text-primary">
-                  How it Works
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-600 hover:text-primary">
+                <a href="/careers" className="text-gray-600 hover:text-primary">
                   Careers
+                </a>
+              </li>
+              <li>
+                <a href="/press" className="text-gray-600 hover:text-primary">
+                  Press
+                </a>
+              </li>
+              <li>
+                <a href="/news" className="text-gray-600 hover:text-primary">
+                  News
                 </a>
               </li>
             </ul>
@@ -97,23 +97,23 @@ const Footer = () => {
             <h3 className="font-semibold mb-4">Resources</h3>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="text-gray-600 hover:text-primary">
-                  Android Reviews
+                <a href="/blog" className="text-gray-600 hover:text-primary">
+                  Blog
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-primary">
-                  iOS Reviews
+                <a href="/newsletter" className="text-gray-600 hover:text-primary">
+                  Newsletter
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-primary">
-                  Testimonials
+                <a href="/events" className="text-gray-600 hover:text-primary">
+                  Events
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-primary">
-                  FAQs
+                <a href="/help" className="text-gray-600 hover:text-primary">
+                  Help Center
                 </a>
               </li>
             </ul>
@@ -123,18 +123,23 @@ const Footer = () => {
             <h3 className="font-semibold mb-4">Legal</h3>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="text-gray-600 hover:text-primary">
-                  Terms of Service
+                <a href="/terms" className="text-gray-600 hover:text-primary">
+                  Terms
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-primary">
-                  Privacy Policy
+                <a href="/privacy" className="text-gray-600 hover:text-primary">
+                  Privacy
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-primary">
-                  KYC/AML Policy
+                <a href="/cookies" className="text-gray-600 hover:text-primary">
+                  Cookies
+                </a>
+              </li>
+              <li>
+                <a href="/licenses" className="text-gray-600 hover:text-primary">
+                  Licenses
                 </a>
               </li>
             </ul>

@@ -7,28 +7,6 @@ import secureIcon2 from "../images/features/secure.png";
 import featuresBg from "../images/features/features-bg.png";
 
 const Features = () => {
-  const testimonials = [
-    {
-      name: "Jimmy Adewale",
-      role: "Entrepreneur",
-      image: "/images/testimonials/jimmy.png",
-      content:
-        "The payment process was smooth and efficient. Highly recommended!",
-    },
-    {
-      name: "Palmer Nicole",
-      role: "PhD Student",
-      image: "/images/testimonials/palmer.png",
-      content: "Made my international tuition payments hassle-free.",
-    },
-    {
-      name: "Hannah Adams",
-      role: "Senior Therapist",
-      image: "/images/testimonials/hannah.png",
-      content: "Great service for handling educational payments globally.",
-    },
-  ];
-
   return (
     <div className="bg-[#E7FBCF] mt-24 py-20 relative overflow-hidden w-full">
       {/* Background Image - Positioned Absolutely */}

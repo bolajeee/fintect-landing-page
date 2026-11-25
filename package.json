@@ -19,5 +19,8 @@
     "build": "vite build",
     "preview": "vite preview"
   },
-  "type": "module"
+  "type": "module",
+  "engines": {
+    "node": ">=20.19"
+  }
 }
